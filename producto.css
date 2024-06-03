@@ -1,0 +1,108 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+
+}
+
+body {
+	background: #fff;
+}
+
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: red; 
+    padding: 15px 0;
+}
+
+.Menu li {
+    padding: 10px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Menu a:hover {
+    color: #000; 
+}
+
+
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-top: 100px;
+}
+
+.card {
+	width: 325px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+	overflow: hidden;
+	transition: transform 0.6s ease;
+
+}
+
+.card:hover {
+	transform: translateY(-20px);
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 20px;
+
+}
+
+.card-content h1{
+	font-size: 20PX;
+	margin-bottom: 10PX;
+
+}
+
+.card-content P{
+	font-size: 15PX;
+	color: #666;
+	margin-bottom: 20px;
+
+
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+
+footer a{
+    text-decoration: none;
+}
+.social-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+
+}

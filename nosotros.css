@@ -1,0 +1,183 @@
+.Menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: red; 
+    padding: 15px 0;
+}
+
+.Menu li {
+    padding: 10px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Menu a:hover {
+    color: #000; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del cuerpo y la cabecera */
+body {
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos del slider */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slider-frame ul {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-frame li {
+    min-width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+    display: block;
+}
+
+/* Estilos de la historia */
+.historia {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.historia .section-title {
+    margin-bottom: 20px;
+}
+
+.historia .historia-content {
+    margin-bottom: 20px;
+}
+
+.historia img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos de los valores */
+.Valores {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.Valores .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos de la misión */
+.mision {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.mision .section-title {
+    margin-bottom: 20px;
+}
+
+/* Estilos de los objetivos */
+.objetivo {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.objetivo .section-title {
+    margin-bottom: 20px;
+}
+
+.objetivo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: red;
+}
